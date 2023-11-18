@@ -12,17 +12,24 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #36981b 0.52%, #1de749 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #30981b -2.14%, #20e71d 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #581B98;
+    --primary: #3c981b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to the viewport height */
 }
 
 /* CHATBOX
 =============== */
 .chatbox {
-    position: absolute;
+    position: center;
     bottom: 30px;
     right: 30px;
 }
@@ -50,6 +57,16 @@ body {
 /* BUTTON */
 .chatbox__button {
     text-align: right;
+}
+
+.chatbox__button button {
+    width: 180px; /* Set the width of the button */
+    height: 90px; /* Set the height of the button */
+}
+
+.chatbox__button button img {
+    width: 100%; /* Make the image inside the button fill its container */
+    height: auto; /* Make the image inside the button fill its container */
 }
 
 .send__button {
@@ -120,6 +137,11 @@ body {
 
 .chatbox__image--header {
     margin-right: 10px;
+}
+
+.chatbox__image--header img {
+    max-width: 100px; /* Set the maximum width of the image */
+    max-height: 100px; /* Set the maximum height of the image */
 }
 
 .chatbox__heading--header {

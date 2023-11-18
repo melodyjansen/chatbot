@@ -5,79 +5,140 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey there! Welcome to SKKUnite. How can I assist you today?",
+        "Hello! How can I help you with SKKUnite?"
       ]
     },
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Feel free to return anytime you need assistance.",
+        "Take care! If you have more questions, don't hesitate to ask."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome! If you need anything else, just ask."]
     },
     {
-      "tag": "items",
+      "tag": "profile",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "How can I create my profile?",
+        "Can you guide me on setting up my profile?",
+        "What details do I need for my SKKUnite profile?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "To set up your profile, click on 'Profile' and fill in your SKKU credentials. It's that simple!",
+        "Creating your profile is easy! Head to the 'Profile' section and input your SKKU credentials."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "matching",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How does the matching algorithm work?",
+        "Can you explain how the matching system pairs students?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Our matching algorithm analyzes your profile information to suggest compatible connections between exchange and local students.",
+        "The matching system uses your profile details to suggest students with shared interests and backgrounds."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "friend_requests",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How do I send friend requests?",
+        "Where can I find my friend requests?",
+        "Can I manage my friend requests?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "You can send friend requests by visiting a user's profile. Any pending requests can be found in your 'Friend Requests' section.",
+        "To send a friend request, go to a profile and click 'Send Request.' Check your 'Friend Requests' to manage them."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "chat",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How can I start a chat with someone?",
+        "Where can I find my chats?",
+        "Can I initiate a conversation with a match?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "To start a chat, go to a user's profile and click 'Initiate Chat.' Your ongoing conversations are in the 'Chats' section.",
+        "You can begin chatting by visiting a profile and selecting 'Start Conversation.' All your chats are in the 'Chats' tab."
+      ]
+    },
+    {
+      "tag": "reviews",
+      "patterns": [
+        "How do I review a friendship?",
+        "Where can I submit a review for a connection?",
+        "Can I give feedback on a friendship?"
+      ],
+      "responses": [
+        "After a chat, you'll be prompted to review your friendship. Go to the 'Reviews' section to submit your feedback.",
+        "You can review a friendship after chatting. Look for the 'Reviews' tab to share your thoughts."
+      ]
+    },
+    {
+      "tag": "entertainment",
+      "patterns": [
+        "What entertainment options does SKKUnite offer?",
+        "Can I explore entertainment features on SKKUnite?",
+        "What activities are available?"
+      ],
+      "responses": [
+        "SKKUnite offers a podcast, news articles, forums for student queries, and soon, an AI chatbot for engaging discussions!",
+        "You can enjoy our podcast, stay updated with news articles, ask questions on the forum, and soon, chat with our AI bot!"
+      ]
+    },
+    {
+      "tag": "reporting",
+      "patterns": [
+        "How can I report inappropriate behavior?",
+        "Where do I report someone not following the code of conduct?",
+        "Can I report a user?"
+      ],
+      "responses": [
+        "If you encounter any behavior not aligned with our code of conduct, use the 'Report' feature on the user's profile.",
+        "You can report inappropriate behavior by clicking 'Report' on the user's profile. We take this seriously."
+      ]
+    },
+    {
+      "tag": "AI_chatbot",
+      "patterns": [
+        "Tell me more about the AI chatbot in SKKUnite.",
+        "What can I expect from the upcoming AI chatbot?",
+        "Can you provide details about the AI chatbot's functionalities?",
+        "How does this AI chatbot work?"
+      ],
+      "responses": [
+        "Our AI chatbot is in development and will soon assist with various queries related to SKKUnite. Stay tuned for its launch!",
+        "The AI chatbot is a work in progress. It aims to help with SKKUnite-related questions and enhance user experience."
+      ]
+    },
+    {
+      "tag": "acknowledgment",
+      "patterns": [
+        "Okay",
+        "Hmm",
+        "Ah",
+        "Oh",
+        "Yes",
+        "Alright"
+      ],
+      "responses": [
+        "Is there anything else you'd like to know about SKKUnite?",
+        "How can I assist you further regarding SKKUnite?",
+        "Do you have any questions about SKKUnite's features or functionalities?"
       ]
     }
   ]
